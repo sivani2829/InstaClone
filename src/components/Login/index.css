@@ -1,0 +1,85 @@
+.login-form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  border: 2px solid white;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px;
+  margin-left: 20px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.username-input-field {
+  width: 250px;
+  height: 30px;
+  /* margin: 10px; */
+}
+.password-input-field {
+  width: 250px;
+  height: 30px;
+  /* margin: 10px; */
+}
+.login-button {
+  background-color: #2563eb;
+  width: 250px;
+  height: 40px;
+  margin: 10px;
+  color: #ffffff;
+  border-radius: 9px;
+  border: none;
+}
+.input-label {
+  font-size: 19px;
+  margin: 3px;
+}
+.login-website-logo-desktop-image {
+  width: 200px;
+  height: 100px;
+  margin-left: 30px;
+
+  /* position: absolute;
+  left: 70.21%;
+  right: 24.1%;
+  top: 34.67%;
+  bottom: 62.4%; */
+
+  /* background: #3b82f6; */
+}
+.show-container {
+  margin-right: 100px;
+  font-size: 19px;
+}
+.box {
+  font-size: 30px;
+}
+.error-message {
+  color: red;
+}
+.insta-heading {
+  /* position: absolute; */
+  /* left: 68.82%;
+  right: 22.71%;
+  top: 38.77%;
+  bottom: 58.11%; */
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  color: #262626;
+}
